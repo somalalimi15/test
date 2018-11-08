@@ -8,7 +8,7 @@ const prefix = "$"
 
 
 client.on('message', omar => {
-if(omar.content.split(' ')[0] == prefix + 'dac') {  
+if(omar.content.split(' ')[0] == prefix + 'اهه') {  
 if (!omar.channel.guild) return;
 if(!omar.guild.member(omar.author).hasPermission("MANAGE_CHANNELS")) return;
 if(!omar.guild.member(client.user).hasPermission("MANAGE_CHANNELS")) return omar.reply(`**I D'ont Have Permission For That !`);
